@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VitaliyMeshechek/parcel-project-template.git"
+    "url": "git+https://github.com/VitaliyMeshechek/parcel.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VitaliyMeshechek/parcel-project-template/issues"
+    "url": "https://github.com/VitaliyMeshechek/parcel/issues"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
