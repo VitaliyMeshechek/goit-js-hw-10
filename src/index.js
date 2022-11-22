@@ -17,6 +17,7 @@ function onCountry(evt) {
   const searchValue = evt.target.value.trim();
   if(!searchValue) {
     refs.container.innerHTML = ''
+    refs.list.innerHTML = ''
       return
     }
 fetchCountries(searchValue).then(data => {
@@ -29,8 +30,6 @@ fetchCountries(searchValue).then(data => {
   }
 
 }).catch(() => {
-  if(!data.textContent){
-    data.reset(fetchCountries)}
     Notiflix.Notify.failure("Oops, there is no country with that name")
 })
 }
