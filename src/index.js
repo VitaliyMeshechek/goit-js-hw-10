@@ -35,6 +35,7 @@ fetchCountries(searchValue).then(data => {
 })
 }
 
+
 function createMarkup(arr){
   const markup = arr.map(item => {
     return `<div class="name-country"><img class="flags" src="${item.flags.svg}" alt="${item.name.official}" width="70" height="50">
